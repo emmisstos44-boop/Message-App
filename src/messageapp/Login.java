@@ -34,7 +34,7 @@ public class Login {
 
         this.password = password;
 
-        boolean upper = true;
+        boolean upper = false;
         boolean number = false;
         boolean special = false;
 
