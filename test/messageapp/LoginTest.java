@@ -42,8 +42,8 @@ public class LoginTest {
     @Test
     public void testStoreNames() {
         System.out.println("storeNames");
-        String first = "";
-        String last = "";
+        String first = "Manuele";
+        String last = "Mashangoane";
         Login instance = new Login();
         instance.storeNames(first, last);
         // TODO review the generated test code and remove the default call to fail.
@@ -56,7 +56,7 @@ public class LoginTest {
     @Test
     public void testCheckUserName() {
         System.out.println("checkUserName");
-        String username = "";
+        String username = "Mas_1";
         Login instance = new Login();
         boolean expResult = false;
         boolean result = instance.checkUserName(username);
@@ -71,7 +71,7 @@ public class LoginTest {
     @Test
     public void testCheckPassword() {
         System.out.println("checkPassword");
-        String password = "";
+        String password = "ASfgh_@1";
         Login instance = new Login();
         boolean expResult = false;
         boolean result = instance.checkPassword(password);
@@ -86,7 +86,7 @@ public class LoginTest {
     @Test
     public void testCheckCellPhoneNumber() {
         System.out.println("checkCellPhoneNumber");
-        String phone = "";
+        String phone = "+27659515299";
         Login instance = new Login();
         boolean expResult = false;
         boolean result = instance.checkCellPhoneNumber(phone);
@@ -115,8 +115,8 @@ public class LoginTest {
     @Test
     public void testLoginUser() {
         System.out.println("loginUser");
-        String username = "";
-        String password = "";
+        String username = "Mas_1";
+        String password = "ASfgh_@1";
         Login instance = new Login();
         boolean expResult = false;
         boolean result = instance.loginUser(username, password);
